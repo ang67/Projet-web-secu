@@ -1,0 +1,1 @@
+pseudo=rio; pass=rioas; PHPSESSID=mnnp9kdq38ifvetof0kdcge7t7
