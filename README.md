@@ -42,7 +42,7 @@ On constate qu’à chaque ouverture du sujet contenant le code injecté il y a 
 
 Essayons d’exploiter cette faille pour voler des cookies qui dans un cas précis pourrait permettre à un attaquant de s'attribuer des rôles plus élevés que prévu.
 
-Ici nous allons écrire un code PHP (https://github.com/ang67/Siteattaquan/index.php)permettant de récupérer les cookies des utilisateurs.
+Ici nous allons écrire un code PHP (https://github.com/ang67/siteattaquant/index.php) permettant de récupérer les cookies des utilisateurs.
 Ce code se trouve peut se trouver sur un autre serveur distant (celui de l’attaquant par exemple https://github.com/ang67/Siteattaquant ). Dans ce code on récupère les cookies, puis on les stocke et enfin, on redirige l’utilisateur vers l’accueil comme si rien ne s’était passé. Pour notre exemple le site a décidé de sauvegarder les mots de passe et login pour permettre de se souvenir de l’utilisateur lors d’une nouvelle connection.
 
 Maintenant l’attainjectons un code javascript dans un message ou dans un sujet qui redirige vers le code PHP malveillant.
